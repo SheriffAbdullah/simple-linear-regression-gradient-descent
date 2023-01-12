@@ -51,7 +51,6 @@ def simple_linear_regression(x, y):
 
 m_lr, c_lr = simple_linear_regression(x, y)
 
-print
 #%%
 
 '''
@@ -132,8 +131,8 @@ print("\n*** With scikit-learn ***")
 print(f"Slope: {reg.coef_[0]}")
 print(f"Intercept: {reg.intercept_}")
 
-print("Inference: ")
-print("Gradient descent [GD] model depends on (i) Learning Rate.")
+print("\nInference: ")
+print("Gradient descent [GD] model depends on Learning Rate.")
 print("GD is faster than calculating all error values for 'm' and 'c'. ")
 
 
